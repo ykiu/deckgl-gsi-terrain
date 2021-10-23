@@ -1,0 +1,26 @@
+{
+  "name": "deckgl-gsi-terrain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.6.0",
+    "@deck.gl/extensions": "8.6.0",
+    "@deck.gl/geo-layers": "^8.6.0",
+    "@deck.gl/layers": "^8.6.0",
+    "@deck.gl/mesh-layers": "8.6.0",
+    "@loaders.gl/terrain": "3.0.12",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
